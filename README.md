@@ -93,7 +93,7 @@ Albert を「単語を入力するとオフラインで検索して（代表的�
 次に和英辞書であるが、 [JMdict/EDICT Project](http://www.edrdg.org/jmdict/edict_doc.html) から JMdict_e.gz をダウンロードした。
 解凍した中身は XML ファイルである。 これを上記と同じようなフォーマットに変換したい。
 
-そこで [変換スクリプト](blob/master/script/jmdict2txt.py) を用意した。
+そこで [変換スクリプト](script/jmdict2txt.py) を用意した。
 JMdict は頻繁に更新されるらしいので、これがいつまで動くかは分からないが。
 
 先に作った `ej-gene95.txt` と上記で作った `je-jmdict.txt` は `/usr/local/share/dict/` ディレクトリ下に置くことにする。
